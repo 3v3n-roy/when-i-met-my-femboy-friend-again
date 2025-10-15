@@ -1,0 +1,55 @@
+.box{
+  margin: 0px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.song {
+  display: flex;
+  justify-content: center;
+}
+body{
+  margin: 0px;
+  background: black;
+  height: 100vh;
+}
+
+img {
+  height: 30em;
+}
+
+.message_box {
+  
+  color: white;
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 15vh;
+}
+
+.btn {
+  height: 10vh;
+  width: 50vh;
+}
+
+.note {
+  text-size: 0.5em;
+  color: white;
+}
+
+p {
+  font-size: 3vw;
+}
+
+button {
+  background: white;
+  border-radius: 3vh;
+  font-size: 3vw;
+}
